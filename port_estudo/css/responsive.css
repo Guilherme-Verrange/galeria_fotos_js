@@ -1,0 +1,52 @@
+@media only screen and (max-width: 991px) {
+
+
+   #nave{
+
+    flex-direction: row;
+
+
+   }
+
+   #nave .navbar-toggler{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  
+
+   }
+
+   #nave .navbar-nav{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   }
+
+   #nave .nav-item{
+
+    margin-right: 22px;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+    
+
+}
+
+.content p{
+
+    font-size: 13px;
+    word-wrap:break-word;
+}
+
+.content h2{
+
+    font-size: 30px;
+    word-wrap:break-word;
+}
+
+
+    
+
+
+}

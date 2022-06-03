@@ -1,0 +1,355 @@
+html{
+
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+    box-shadow: 0 0 0 0;
+     outline: 0;
+
+}
+
+
+li {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+#nave .nav-link{
+    display: inline-block;
+    text-decoration: none;
+    color: #EAE6E5;
+    font-size: 15px;
+    
+}
+
+#nave .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #EAE6E5;
+    transition: width .3s;
+}
+
+#nave .nav-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+
+
+#nave .nav-item{
+
+    margin-right: 50px;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+    
+
+}
+
+.banner{
+
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+
+}
+
+
+.banner video{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+
+.content{
+
+    color: #EAE6E5;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+.btn-banner{
+
+    margin-top: 120px;
+
+}
+
+
+
+
+/*Esrevendo em CSS*/
+
+.content p {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #EAE6E5; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: transparent; }
+  }
+
+
+/*  Créditos: https://css-tricks.com/snippets/css/typewriter-effect/  */
+
+
+
+
+.btn-click{
+    
+    text-decoration: none;
+    color: #EAE6E5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    transition: ease-in 0.3s;
+    border-radius: 0px;
+    
+    
+}
+
+.btn-click:hover{
+    
+    text-decoration: none;
+    transition: ease-out 0.3s;
+    border-radius: 30px;
+    font-family: 'Raleway', sans-serif;
+    -webkit-transition: border-radius 5px;
+    font-size: 20px;
+    
+}
+
+#filter{
+
+    height: auto;
+    margin-top: 100px;
+    background-color: #EAE6E5;
+
+}
+
+.title-section{
+
+    color: #b3953b;
+    font-size: 80px;
+    padding: 20px;
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+}
+
+#filter .badge{
+
+    font-weight: 400;
+}
+
+#filter .element-item img{
+
+    border-radius: 5px;
+    transition: all ease-out 0.5s; 
+
+}
+
+#filter .element-item img:hover{
+
+   box-shadow: 0 0 30px 0 rgba(0,0,0);
+   transition: all ease-in 0.5s; 
+
+
+}
+
+#filter .element-item video{
+
+    border-radius: 5px;
+    transition: all ease-out 0.3s; 
+
+}
+
+#filter .element-item video:hover{
+
+   box-shadow: 0 0 30px 0 rgba(0,0,0);
+   transition: all ease-in 0.3s;
+
+}
+
+#filter .button-group button{
+
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    outline: none;
+
+}
+
+#filter .button-group button + button{
+
+    margin-left: 30px;
+
+}
+
+
+#filter .ativo{
+
+    color: #b3953b;
+
+}
+
+
+#card-price{
+
+    background-color: #EAE6E5;
+}
+
+#card-price .card{
+
+    transition: all ease-out 0.5s; 
+
+}
+
+#card-price .card:hover{
+
+    box-shadow: 1 1 1px 0 rgba(0,0,0);
+    transition: all ease-in 0.5s; 
+ 
+ 
+ }
+
+
+ .banner2{
+
+    width: 100%;
+    height: 20vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+
+}
+
+
+.banner2 .video2{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.banner3{
+
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+
+}
+
+
+.banner3 .video3{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -2;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.rodape{
+
+    height: auto;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.rodape .form-contato{
+
+    padding: 10px;
+    border-radius: 0;
+
+}
+
+.rodape .group-icon{
+
+  font-size: 30px;
+
+
+}
+
+.rodape .group-icon a{
+
+    color: #EAE6E5;
+    filter: contrast(0);
+    transition: ease-in 0.3s;
+    
+}
+
+.rodape .group-icon a:hover{
+
+    color: #EAE6E5;
+    filter: contrast(1);
+    
+}
+
+.rodape .ass{
+
+    font-size: 12px;
+
+}
+
+
+
+
+
+
+
+
+
